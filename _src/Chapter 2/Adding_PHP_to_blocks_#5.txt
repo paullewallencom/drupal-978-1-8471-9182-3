@@ -1,0 +1,12 @@
+<?php
+if (arg(0) == 'blog') {
+  return TRUE;
+}
+if (arg(0) == 'node' && ctype_digit(arg(1))) {
+  $node = node_load(arg(1));
+  if ($node->type == 'forum') {
+    return TRUE;
+  }   
+}
+return FALSE;
+?>

@@ -1,0 +1,10 @@
+#page {
+  width: 980px;
+  margin: 0 auto;
+  border-left: 4px solid #666633;
+  border-right: 4px solid #666633;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  line-height: 1.4em;
+  background-color: #fff;
+}

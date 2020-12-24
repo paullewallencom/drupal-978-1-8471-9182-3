@@ -1,0 +1,17 @@
+.comment {
+  margin: 0 0 10px 0;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.comment  h3.title, .comment  h3.title a {
+  font-size: 122%;
+  color: #666;
+  font-weight: normal;
+  font-family: Verdana, Arial, Sans-serif;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.comment .new {
+  color: #FFC600;  font-weight: bold;  font-family: Arial, Verdana, Sans-serif;}

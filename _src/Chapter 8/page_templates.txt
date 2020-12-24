@@ -1,0 +1,17 @@
+function _phptemplate_variables($hook, $variables = array()) {
+  switch ($hook) {
+    case 'page':
+      global $user;
+      if (arg(0) == 'user'){
+        if (!$user->uid) { //only shows the page to users who are not logged in
+          $variables['template_file'] = 'page-login';
+        }
+        elseif (arg(1) == 'login' || arg(1) == 'register' || arg(1) == 'password' ) {
+          $variables['template_file'] = 'page-login';
+        }
+      }
+      break;
+  }
+
+  return $variables;
+}

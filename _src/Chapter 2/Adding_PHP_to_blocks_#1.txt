@@ -1,0 +1,9 @@
+<?php
+global $user;
+if ($user->uid == 1){
+  return TRUE;
+} 
+else {
+  return FALSE;
+}
+?>

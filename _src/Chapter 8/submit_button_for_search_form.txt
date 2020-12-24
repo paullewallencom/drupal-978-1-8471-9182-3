@@ -1,0 +1,9 @@
+function phptemplate_search_theme_form($form) {
+   $form['submit']['#theme'] = 'button';
+   $form['submit']['#button_type'] = 'image';
+   $form['submit']['#attributes'] = array(
+      'src' => base_path() . path_to_theme() . '/images/btn-search-submit.png', //the name and location of your button image    
+      'alt' => t('Search')  //the alt text for the image
+   );
+return drupal_render($form);
+}

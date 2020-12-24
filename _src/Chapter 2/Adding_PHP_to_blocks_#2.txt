@@ -1,0 +1,9 @@
+<?php
+global $user;
+if (in_array('Moderator',$user->roles)) {
+  return TRUE;
+} 
+else {
+  return FALSE;
+}
+?>

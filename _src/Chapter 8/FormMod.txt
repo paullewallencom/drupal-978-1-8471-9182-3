@@ -1,0 +1,28 @@
+<?php
+//$Id$
+/**
+* @file
+* Adds modifications to various site forms.
+*
+*/
+function formmod_form_alter($form_id, &$form) {
+   // This part changes the user login form
+   if ($form_id == 'user_login') {
+      // Change the text below the username field to 'Enter your username.'
+      $form['name']['#description'] = 'Enter your username.';
+      // Change the text on the submit button to 'enter'
+      $form['submit']['#value'] = 'enter';
+   }  
+   // This part changes the user registration form
+   if ($form_id == 'user_register') {
+      // Change the text on the submit button to 'submit registration'
+         $form['submit']['#value'] = 'submit registration';
+   }
+   // This part changes the request password form  
+   if ($form_id == 'user_pass') {
+      // Changes the data label to add basic instructions to form
+         $form['name']['#title'] = 'Enter your username or email address, then click submit.';
+      // Change the text on the submit button to 'request password'
+         $form['submit']['#value'] = 'request password'; 
+   }
+}

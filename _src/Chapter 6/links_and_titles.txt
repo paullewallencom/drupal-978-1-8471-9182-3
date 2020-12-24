@@ -1,0 +1,66 @@
+a, a:link, a:visited {
+  color: #666633;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1.title, h1.title a, h1.title a:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #666633;
+  font-size: 200%;
+  margin: 0; 
+  line-height: normal;
+}
+
+h1, h1 a, h1 a:hover {
+  font-size: 140%;
+  color: #444;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0.5em 0;
+}
+
+h2, h2 a, h2 a:hover, .block h3, .block h3 a {
+  font-size: 122%;
+  color: #444;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0.5em 0;
+}
+
+h3 { 
+  font-size: 107%;
+}
+
+h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+} 
+
+#logo-title {
+  margin: 10px 0 0 0;
+  position: relative;
+  background-color: #eaebcd;
+  height: 60px;
+  border-top: 1px solid #676734;
+ padding-top: 10px;
+  padding-bottom: 10px;  border-bottom: 1px solid #676734;
+} 
+
+#site-name a, #site-name a:hover {
+  font-family: Verdana, Arial, Verdana, Sans-serif;
+  font-weight: normal;
+  color: #000;
+  font-size: 176%;
+  margin-left: 20px;
+  padding: 0;
+}
+
+#site-slogan {
+  color: #676734;
+  margin: 0;
+  font-size: 90%;
+  margin-left: 20px;
+}

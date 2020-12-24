@@ -1,0 +1,11 @@
+function tao_regions() {
+  return array(
+  'page_top' => t('page top'),
+  'banner' => t('banner'),
+   'left' => t('left sidebar'),
+  'right' => t('right sidebar'),
+  'content_top' => t('content top'),
+  'content_bottom' => t('content bottom'),
+  'header' => t('header'),
+  'footer' => t('footer')
+  );

@@ -1,0 +1,9 @@
+function phptemplate_user_login_block($form) {
+   $items = array();	
+       if (variable_get('user_register', 1)) {
+       $items[] = l(t('Create new account'), 'user/register', array('title' => t('Create a new user account.')));
+      }
+   $items[] = l(t('Send password reminder'), 'user/password', array('title' => t('Request new password via e-mail.')));
+   $form['links'] = array('#value' => theme('item_list', $items));
+      return _phptemplate_callback('user-login-block', array('form' => $form));
+}

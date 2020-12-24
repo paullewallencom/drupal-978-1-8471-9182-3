@@ -1,0 +1,2 @@
+.title {  
+  color: #666;  font-size: 1.8em;  line-height: 2.0em;  font-style: italic;}

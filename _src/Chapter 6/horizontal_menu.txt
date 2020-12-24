@@ -1,0 +1,8 @@
+#page-top li {
+  display: inline;
+  float: right;
+}
+
+#page-top li a {
+  color: #fff;
+}

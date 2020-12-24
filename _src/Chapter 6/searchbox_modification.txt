@@ -1,0 +1,22 @@
+#search {
+  position: absolute;
+  padding: 0;
+  top: 20px;
+  right: 20px;
+}
+
+#search .form-text, #user-login-form .form-text {
+  color: #444;
+  border: 1px solid #000;
+  padding: 2px;
+}
+
+#search .button, 
+#search .form-submit,
+#user-login-form .button,
+#user-login-form .form-submit {
+  background-color: #676734;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #000;
+}

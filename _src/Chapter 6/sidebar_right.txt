@@ -1,0 +1,16 @@
+#sidebar-right ul.menu {
+  border-top: 1px solid #676734;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #676734;
+  background-color: #eaebcd;
+  color: #676734;
+  font-weight: normal;
+  font-family: Verdana;
+  line-height: 1.4em;
+}
+
+#sidebar-right ul.menu li {
+  font-size: 110%;
+  font-weight: normal;
+}

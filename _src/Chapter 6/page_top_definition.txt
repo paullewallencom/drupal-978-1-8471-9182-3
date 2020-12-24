@@ -1,0 +1,7 @@
+#page-top {
+margin: 0;
+background-color: #676734;
+width: 980px;
+height: 25px;
+text-align: right;
+}

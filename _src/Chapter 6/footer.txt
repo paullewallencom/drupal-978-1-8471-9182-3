@@ -1,0 +1,13 @@
+#footer-wrapper {  
+margin: 0;}
+
+
+#footer {  
+background-color: #676734;  
+color: #FFF;  
+margin: 0;  
+font-size: 100%;  
+height: 25px;
+}  
+#footer a {  
+color: #fff;}  

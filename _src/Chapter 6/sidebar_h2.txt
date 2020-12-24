@@ -1,0 +1,10 @@
+#sidebar-right h2 {
+  background-color: #676734;
+  display: block;
+  color: #eaebcd;
+  font-size: 110%;
+  font-weight: normal;
+  font-family: Verdana;
+  line-height: 1.5em;
+  padding-left: 10px;
+}

@@ -1,0 +1,10 @@
+<body class="<?php print $body_classes; ?>">
+  <div id="page">
+   <div id="page-top">
+     <?php print $page_top; ?>
+   </div>
+   <div id="banner">
+     <?php print $banner; ?>
+   </div>
+     <div id="header">
+         <div id="logo-title">
